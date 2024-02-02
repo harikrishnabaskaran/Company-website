@@ -1,0 +1,72 @@
+/* Contact.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.container2 {
+  background-image: url('../images/tech3.jpg');/* Replace with the path to your background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h1{
+
+  color: cadetblue;
+}
+
+form {
+  max-width: 600px;
+  width: 90%;
+  padding: 20px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.info {
+  text-align: center;
+  margin-top: 20px;
+  color:white;
+  font-size: 18px;
+}
+.sub {
+  font-size: 40px;
+}
+.sub p{
+  font-size: 30px; 
+  color: #00fbea;
+}

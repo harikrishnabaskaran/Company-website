@@ -1,0 +1,77 @@
+/* About.css */
+.About-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Muli', sans-serif;
+  
+  }
+  
+
+.About-container {
+    
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px; 
+    font-family: 'Muli', sans-serif;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column; /* Adjusted to column layout for better alignment */
+    align-items: center; 
+   
+  }
+  .text-content {
+    max-width: 600px; /* Adjusted max-width for better readability */
+    text-align: center; /* Center align text content */
+  }
+  
+ 
+  /* Heading styles */
+  .About-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .About-container h3 {
+    font-size: 1.8rem;
+    color: #555;
+  }
+  
+  .About-container p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+.About-container h1{
+    color:rgb(34, 189, 137);
+  }
+  .About-container h3 {
+    font-size: 2rem; /* Adjust the font size as needed */
+    color: #555;
+  }
+
+  .fullscreen-bg {
+    background-image: url('../images/home5.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+  }
+  
+  .work h3,
+  .About-container h3:last-child {
+    font-size: 2rem; /* Adjust the font size as needed */
+    color: rgb(34, 189, 137);
+  }
+.info p{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Muli', sans-serif;
+}
